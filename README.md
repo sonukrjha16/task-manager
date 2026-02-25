@@ -45,3 +45,54 @@ This is a full-stack Todo application that allows users to create, read, update,
 └── README.md                    # Project documentation
 ```
 
+## 🎻 Prerequisites
+
+Before getting started with the Practicing Projects, you should have a basic understanding of `MongoDB, Express.js, React.js, Node.js, HTML, CSS, TailwindCSS and JavaScript.`
+
+## 🔥 Clone this Repository
+
+You need to write the following commands on the terminal screen (in vscode) so that you can run this project locally.
+
+```bash
+git clone https://github.com/chetannada/MERN-Todo.git
+```
+
+Go to the project directory
+
+```bash
+cd MERN-Todo
+```
+
+Install dependencies for both client and server:
+
+```bash
+Install client dependencies
+
+cd client
+npm install
+
+Install server dependencies
+
+cd ../server
+npm install
+```
+
+Set up environment variables:
+
+    * .env - environment variables for this project to run in development environment (fill with actual values for environment variables)
+
+Run the application:
+
+- In the **server** directory, start the backend server:
+
+  ```bash
+  npm run start
+  ```
+
+- In the **client** directory, start the frontend app:
+  ```bash
+  npm run dev
+  ```
+
+The client application will now be running on `http://localhost:3000`
+and the server will be listening on `http://localhost:5000`.
